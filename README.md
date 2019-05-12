@@ -22,7 +22,7 @@ from autoocr import AutoOCR # import the AutoOCR class
 ```
 oa = AutoOCR(lang='bangla') # specify the language code
 ```
-* Set the tessdata folder, on mac you can do `brew list tesseract`
+* Set the tessdata folder, on mac you can do `brew list tesseract` to get the path. This is only needed once.
 
 ```
 oa.set_datapath('/usr/local/Cellar/tesseract/4.0.0_1/share/tessdata')
@@ -36,7 +36,57 @@ oa.get_text('image_ocr.jpg')
 [![demo of autoocr on mac](demo.gif)](https://www.youtube.com/channel/UCVaObCskAlvvctDP9vZvW6w)
 
 
+### Windows
+
+* Install tesseract engine
+
+* Import the library
+
+```
+from autoocr import AutoOCR # import the AutoOCR class
+```
+
+* Specify the language
+
+```
+oa = AutoOCR(lang='bangla') # specify the language code
+```
+* Set the tessdata folder. This is only needed once.
+
+```
+oa.set_datapath('/path/to/tessdata')
+```
+* Get the text from image by passing the path to image
+
+```
+oa.get_text('image_ocr.jpg')
+```
 
 
+### Linux
+
+* Install tesseract engine
+
+* Import the library
+
+```
+from autoocr import AutoOCR # import the AutoOCR class
+```
+
+* Specify the language
+
+```
+oa = AutoOCR(lang='bangla') # specify the language code
+```
+* Set the tessdata folder. This is only needed once.
+
+```
+oa.set_datapath('/path/to/tessdata')
+```
+* Get the text from image by passing the path to image
+
+```
+oa.get_text('image_ocr.jpg')
+```
 
 
