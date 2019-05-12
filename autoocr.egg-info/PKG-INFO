@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: autoocr
+Version: 0.0.2
+Summary: A Python wrapper for cross platform tesseract OCR engine with multiple languages (e.g. Bangla)
+Home-page: https://github.com/zabir-nabil/autoocr
+Author: Zabir Al Nazi Nabil
+Author-email: zabiralnazi@yahoo.com
+License: MIT
+Description: UNKNOWN
+Keywords: ocr
+Platform: UNKNOWN

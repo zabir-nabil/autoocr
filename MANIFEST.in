@@ -1,0 +1,4 @@
+include autoocr/config.json
+include autoocr/lang_map.json
+include LICENSE
+include README.md

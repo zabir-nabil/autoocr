@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+autoocr/__init__.py
+autoocr/autoocr.py
+autoocr/config.json
+autoocr/lang_map.json
+autoocr.egg-info/PKG-INFO
+autoocr.egg-info/SOURCES.txt
+autoocr.egg-info/dependency_links.txt
+autoocr.egg-info/top_level.txt
