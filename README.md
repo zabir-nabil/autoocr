@@ -3,9 +3,39 @@
 
 ## Installation
 
-# Mac OS
+```
+pip install autoocr
+```
+
+## Usage
+
+### Mac OS
+
+* Import the library
+
+```
+from autoocr import AutoOCR # import the AutoOCR class
+```
+
+* Specify the language
+
+```
+oa = AutoOCR(lang='bangla') # specify the language code
+```
+* Set the tessdata folder, on mac you can do `brew list tesseract`
+
+```
+oa.set_datapath('/usr/local/Cellar/tesseract/4.0.0_1/share/tessdata')
+```
+* Get the text from image by passing the path to image
+
+```
+oa.get_text('image_ocr.jpg')
+```
 
 [![demo of autoocr on mac](demo.gif)](https://www.youtube.com/channel/UCVaObCskAlvvctDP9vZvW6w)
+
+
 
 
 
