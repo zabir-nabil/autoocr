@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='autoocr',
-    version='0.0.2',
+    version='0.0.3',
     description='A Python wrapper for cross platform tesseract OCR engine with multiple languages (e.g. Bangla)',
     license='MIT',
     packages=['autoocr'],

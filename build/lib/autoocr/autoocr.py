@@ -132,7 +132,7 @@ class AutoOCR:
             import Image
         import pytesseract
 
-        print(pytesseract.image_to_string(Image.open(path), lang = self.lang))
+        return (pytesseract.image_to_string(Image.open(path), lang = self.lang))
 
 
 

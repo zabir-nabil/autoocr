@@ -30,7 +30,7 @@ oa.set_datapath('/usr/local/Cellar/tesseract/4.0.0_1/share/tessdata')
 * Get the text from image by passing the path to image
 
 ```
-oa.get_text('image_ocr.jpg')
+out_text = oa.get_text('image_ocr.jpg')
 ```
 
 [![demo of autoocr on mac](demo.gif)](https://www.youtube.com/channel/UCVaObCskAlvvctDP9vZvW6w)
@@ -59,13 +59,13 @@ oa.set_datapath('/path/to/tessdata')
 * Get the text from image by passing the path to image
 
 ```
-oa.get_text('image_ocr.jpg')
+out_text = oa.get_text('image_ocr.jpg')
 ```
 
 
 ### Linux
 
-* Install tesseract engine
+* Install tesseract engine. Follow this page [![tesseract installation](https://github.com/tesseract-ocr/tesseract/wiki)](https://github.com/tesseract-ocr/tesseract/wiki)
 
 * Import the library
 
@@ -78,7 +78,7 @@ from autoocr import AutoOCR # import the AutoOCR class
 ```
 oa = AutoOCR(lang='bangla') # specify the language code
 ```
-* Set the tessdata folder. This is only needed once.
+* Set the tessdata folder. This is only needed once. Run, `rpm -ql tesseract` for yum to get the location.
 
 ```
 oa.set_datapath('/path/to/tessdata')
@@ -86,7 +86,7 @@ oa.set_datapath('/path/to/tessdata')
 * Get the text from image by passing the path to image
 
 ```
-oa.get_text('image_ocr.jpg')
+out_text = oa.get_text('image_ocr.jpg')
 ```
 
 

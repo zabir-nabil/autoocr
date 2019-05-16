@@ -35,7 +35,9 @@ class AutoOCR:
 
             try:
                 if platform == "linux" or platform == "linux2":
+                    print(f'{Fore.RED}')
                     print("After installing tesseract, copy the tessdata folder path to config.json or run set_datapath function")
+                    print(f'{Style.RESET_ALL}')
                     pass
                     #print('linux system')
                 elif platform == "darwin":
@@ -55,7 +57,9 @@ class AutoOCR:
                     #print('mac system')
                     #subprocess.call(["brew", "install", "tesseract"])
                 elif platform == "win32":
+                    print(f'{Fore.RED}')
                     print("After installing tesseract, copy the tessdata folder path to config.json or run set_datapath function")
+                    print(f'{Style.RESET_ALL}')
                     pass
                     #print('win system')
             except:
@@ -132,7 +136,7 @@ class AutoOCR:
             import Image
         import pytesseract
 
-        print(pytesseract.image_to_string(Image.open(path), lang = self.lang))
+        return (pytesseract.image_to_string(Image.open(path), lang = self.lang))
 
 
 
