@@ -65,7 +65,7 @@ out_text = oa.get_text('image_ocr.jpg')
 
 ### Linux
 
-* Install tesseract engine. Follow this page [![tesseract installation](https://tesseract-ocr.github.io/)]https://tesseract-ocr.github.io/)
+* Install tesseract engine. Follow this page [tesseract-ocr](https://tesseract-ocr.github.io/)
 
 * Import the library
 
