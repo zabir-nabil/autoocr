@@ -1,10 +1,10 @@
 # autoocr
 > A Python wrapper for cross platform tesseract OCR engine with multiple languages (e.g. Bangla)
 
-## Installation
+## Installations
 
 ```
-pip install autoocr
+pip3 install autoocr
 ```
 
 ## Usage
